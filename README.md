@@ -4,14 +4,14 @@ Frontend del sistema “Desarrollo Pulmonar”, modernizado como parte del TFG. 
 
 ## Stack
 - **Flutter (Dart)**
-- **go_router** (enrutado + control de acceso) :contentReference[oaicite:0]{index=0}
+- **go_router** (enrutado + control de acceso)
 - **flutter_riverpod** (gestión de estado)
-- **Dio** (cliente HTTP) :contentReference[oaicite:1]{index=1}
-- Modelos/DTOs alineados con el backend para mantener tipado homogéneo :contentReference[oaicite:2]{index=2}
+- **Dio** (cliente HTTP)
+- Modelos/DTOs alineados con el backend para mantener tipado homogéneo
 
 ## Roles y experiencia de usuario
-Tras iniciar sesión, si el usuario dispone de varios roles puede **seleccionar el rol activo**. :contentReference[oaicite:3]{index=3}  
-Ejemplo de navegación para coordinador/investigador: acceso a **Estadísticas, Formularios, Usuarios y Grupos** desde la pantalla principal. :contentReference[oaicite:4]{index=4}
+Tras iniciar sesión, si el usuario dispone de varios roles puede **seleccionar el rol activo**.
+Ejemplo de navegación para coordinador/investigador: acceso a **Estadísticas, Formularios, Usuarios y Grupos** desde la pantalla principal.
 
 ## Funcionalidades principales
 - Autenticación (login + selección de rol)
@@ -19,7 +19,7 @@ Ejemplo de navegación para coordinador/investigador: acceso a **Estadísticas, 
 - Gestión de usuarios y grupos (según permisos)
 - Gestión y creación de formularios/encuestas
 - Registro y revisión de evaluaciones
-- Listados con **búsqueda / filtrado / paginación** para mejorar usabilidad :contentReference[oaicite:5]{index=5}
+- Listados con **búsqueda / filtrado / paginación** para mejorar usabilidad
 
 ## Estructura del proyecto (resumen)
 ```txt
