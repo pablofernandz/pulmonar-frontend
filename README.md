@@ -1,6 +1,6 @@
 # Pulmonar 2.0 — Frontend (Flutter)
 
-Frontend del sistema “Desarrollo Pulmonar”, modernizado como parte del TFG. Aplicación **Flutter (Web)** con navegación por rutas y control de acceso por rol, que consume la **API REST** del backend.
+Frontend del sistema “Desarrollo Pulmonar”, realizado como parte del TFG. Aplicación **Flutter (Web)** responsive con navegación por rutas y control de acceso por rol, que consume la **API REST** del backend.
 
 ## Stack
 - **Flutter (Dart)**
