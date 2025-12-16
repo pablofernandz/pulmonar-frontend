@@ -1,16 +1,24 @@
-# tfg_app2
 
-A new Flutter project.
+---
 
-## Getting Started
+## README.md (frontend) — `pulmonar-frontend`
 
-This project is a starting point for a Flutter application.
+```md
+# Pulmonar 2.0 — Frontend (Flutter)
 
-A few resources to get you started if this is your first Flutter project:
+Frontend del sistema “Desarrollo Pulmonar”, modernizado como parte del TFG. Aplicación **Flutter Web** con navegación por rutas y control de acceso por rol, consumiendo la API REST del backend.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Stack
+- **Flutter (Dart)**
+- **go_router** (enrutado) + guards (control de acceso) :contentReference[oaicite:9]{index=9}
+- **flutter_riverpod** (estado)
+- **Dio** (cliente HTTP para consumir la API REST) :contentReference[oaicite:10]{index=10}
+- Modelos Dart alineados con DTOs del backend (tipado homogéneo) :contentReference[oaicite:11]{index=11}
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Roles y flujos
+Tras iniciar sesión, el usuario puede **seleccionar rol** (si tiene más de uno). :contentReference[oaicite:12]{index=12}
+
+Ejemplo (perfil investigador/coordinador):
+- Home con acceso a **Estadísticas, Formularios, Usuarios y Grupos** :contentReference[oaicite:13]{index=13}
+
+## Estructura del proyecto (resumen)
